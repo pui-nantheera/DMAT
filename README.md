@@ -139,3 +139,12 @@ When pointing to a training dataset it must be formatted as follows
 ```
 Where each directory contains .mp4 video sequences for each training video.  gt is the ground truth (non distorted), turb is the distorted version.  If the ground truth is a single static image, then the image is just repeated with the appropriate gt .mp4 video for the same length as the output video.
 
+## Bibtex
+```
+@inproceedings{DMAT_WACV2026,
+  title     = {{DMAT}: An End-to-End Framework for Joint Atmospheric Turbulence Mitigation and Object Detection},
+  author    = {Paul Hill and Zhiming Liu and Alin Achim and David Bull and Nantheera Anantrasirichai},
+  booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  year      = {2026},
+}
+```
